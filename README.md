@@ -10,8 +10,8 @@ This project performs end-to-end sentiment analysis on airline-related tweets us
 📌 Key Features
   •	Random tweet sampling for insight into raw sentiment distributions
   •	Custom text cleaning pipeline:
-  o	Removes mentions, URLs, punctuation, emojis, airline names
-  o	Strips stopwords and irrelevant tokens
+  •	Removes mentions, URLs, punctuation, emojis, airline names
+  •	Strips stopwords and irrelevant tokens
   •	Common word frequency analysis per sentiment
   •	TF-IDF vectorization of cleaned text
   •	Multinomial Naive Bayes model for classification
@@ -20,7 +20,7 @@ This project performs end-to-end sentiment analysis on airline-related tweets us
 🛠️ Tech Stack
 •	Language: Python
 •	Libraries:
-o	pandas, numpy, re, string, collections
-o	nltk (stopwords)
-o	scikit-learn for preprocessing, modeling, and evaluation
+•	pandas, numpy, re, string, collections
+•	nltk (stopwords)
+•	scikit-learn for preprocessing, modeling, and evaluation
 
